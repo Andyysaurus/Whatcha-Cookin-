@@ -6,4 +6,5 @@
     <string name="addI">Add Ingredients</string>
     <string name="addNI">Add New Ingredients</string>
     <string name="addNR">Add New Recipes</string>
+    <string name="back">Back</string>
 </resources>

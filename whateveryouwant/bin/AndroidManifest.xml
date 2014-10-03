@@ -35,13 +35,13 @@
 
         <activity 
             android:name="com.cookApp.AddNewRecipe"
-            android:label="@string/profile"
+            android:label="@string/addNR"
             android:parentActivityName="com.cookApp.MainActivity">
         </activity>
 
         <activity 
             android:name="com.cookApp.AddIngredients"
-            android:label="@string/area1">
+            android:label="@string/addI">
         </activity>
         <activity
             android:name="com.cookApp.Check" >
