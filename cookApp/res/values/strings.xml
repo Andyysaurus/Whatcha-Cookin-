@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Cooking App</string>
-    <string name = "check">Check</string>
-    <string name="about">About</string>
-    <string name="addI">Add Ingredients</string>
-    <string name="addNI">Add New Ingredients</string>
-    <string name="addNR">Add New Recipes</string>
-</resources>
