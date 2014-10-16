@@ -29,14 +29,20 @@
         </activity>
 
         <activity
-            android:name="com.cookApp.AddNewIngredient"
-            android:label="TEST TEST TEST">
+            android:name="com.cookApp.AddNewIngredients"
+            android:label="Add a new ingredient">
         </activity>
 
         <activity 
             android:name="com.cookApp.AddNewRecipe"
             android:label="@string/addNR"
             android:parentActivityName="com.cookApp.MainActivity">
+        </activity>
+
+        <activity 
+            android:name="com.cookApp.AddNewIngredients2"
+            android:label="@string/addNR"
+            android:parentActivityName="com.cookApp.AddNewRecipe">
         </activity>
 
         <activity 

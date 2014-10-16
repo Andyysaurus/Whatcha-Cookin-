@@ -13,15 +13,19 @@ public class AddIngredients extends Activity
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.addingredients);
+        setContentView(R.layout.addnewingredients2);
     }
 
     public void back(View view) {
-       Intent intent = new Intent(this, MainActivity.class);
+       Intent intent = new Intent(this, AddNewRecipe.class);
        startActivity(intent);
     }
 
     public void done(View view) {
         return;
-    }        
+    }   
+
+    public void another(View view) {
+        return;
+    }             
 }

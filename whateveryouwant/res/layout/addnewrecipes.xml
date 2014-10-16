@@ -4,16 +4,36 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-<TextView 
-    android:layout_weight="1"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Testing Add New Recipes"/>
-<Button
-    android:onClick="back"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="@string/back"
-    android:background="@drawable/custom_button"
-    android:textColor="@drawable/text_colour"/>
+    <EditText 
+        android:id="@+id/addNR"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Type New Recipe"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/addNRInstructions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Type Recipe's Instructions"
+        android:inputType="text" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+        <Button
+            android:onClick="back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:background="@drawable/custom_button"
+            android:textColor="@drawable/text_colour"/>
+        <Button
+            android:onClick="next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:background="@drawable/custom_button"
+            android:textColor="@drawable/text_colour"/>
+    </LinearLayout>
 </LinearLayout>

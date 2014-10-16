@@ -13,7 +13,7 @@ public class AddIngredients extends Activity
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.addIngredients);
+        setContentView(R.layout.addingredients);
     }
 
     public void back(View view) {
