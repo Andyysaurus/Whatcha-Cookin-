@@ -13,13 +13,13 @@
             android:id="@+id/addNI"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/Type New Ingredient"
+            android:hint="Type New Ingredient"
             android:inputType="text" />
         <EditText
             android:id="@+id/addAmount"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/Type Amount"
+            android:hint="Type Amount"
             android:inputType="number" />
     </LinearLayout>
     <LinearLayout

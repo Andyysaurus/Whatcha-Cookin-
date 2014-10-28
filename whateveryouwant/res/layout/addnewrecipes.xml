@@ -8,13 +8,13 @@
         android:id="@+id/addNR"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/Type New Recipe"
+        android:hint="Type New Recipe"
         android:inputType="text" />
     <EditText
         android:id="@+id/addNRInstructions"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/Type Recipe's Instructions"
+        android:hint="Type Recipe's Instructions"
         android:inputType="text" />
     <LinearLayout
         android:orientation="horizontal"
