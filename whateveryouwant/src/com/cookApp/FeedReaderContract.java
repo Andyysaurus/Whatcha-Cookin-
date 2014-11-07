@@ -1,4 +1,4 @@
-package com.example.moletracker;
+package com.cookApp;
 
 import android.app.Activity;
 import android.os.Bundle;

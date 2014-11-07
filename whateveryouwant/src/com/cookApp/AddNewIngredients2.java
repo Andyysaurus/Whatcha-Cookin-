@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.widget.TextView;
 import android.view.View;
 
-public class AddIngredients extends Activity
+public class AddNewIngredients2 extends Activity
 {
     /** Called when the activity is first created. */
     @Override

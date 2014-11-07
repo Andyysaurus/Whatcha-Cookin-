@@ -1,4 +1,4 @@
-package com.example.moletracker;
+package com.cookApp;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -14,7 +14,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 	
 	@Override
 	public void onCreate(SQLiteDatabase _db) {
-		_db.execSQL(AddMoleAdapter.DATABASE_CREATE);
+		//_db.execSQL(AddMoleAdapter.DATABASE_CREATE);
 		_db.execSQL(PhotoAdapter.DATABASE_CREATE);
 	}
 	

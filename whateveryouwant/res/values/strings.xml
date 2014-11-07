@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Cooking App</string>
     <string name="check">Check</string>
     <string name="about">About</string>
@@ -10,4 +11,9 @@
     <string name="done">Done</string>
     <string name="back">Back</string>
     <string name="another">Another</string>
+    <string name="title_activity_add_ingredient_helper">AddIngredientHelper</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_add_ingredient_database">AddIngredientDatabase</string>
+
 </resources>

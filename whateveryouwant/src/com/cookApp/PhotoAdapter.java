@@ -1,4 +1,4 @@
-package com.example.moletracker;
+package com.cookApp;
 
 import android.content.ContentValues;
 import android.content.Context;

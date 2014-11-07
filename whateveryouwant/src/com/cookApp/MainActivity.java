@@ -22,7 +22,7 @@ public class MainActivity extends Activity
 
 
     public void addI(View view) {
-        Intent intent = new Intent(this, addIngredients.class);
+        Intent intent = new Intent(this, AddIngredients.class);
         startActivity(intent);    
     } 
 

@@ -1,9 +1,8 @@
 package com.cookApp;
 
 import android.app.Activity;
-import android.os.Bundle;
 import android.content.Intent;
-import android.widget.TextView;
+import android.os.Bundle;
 import android.view.View;
 
 public class AddIngredients extends Activity

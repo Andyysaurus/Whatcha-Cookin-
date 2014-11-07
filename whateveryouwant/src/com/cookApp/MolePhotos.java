@@ -1,4 +1,4 @@
-package com.example.moletracker;
+package com.cookApp;
 
 import java.util.ArrayList;
 import android.app.Activity;
@@ -22,7 +22,7 @@ public class MolePhotos extends Activity
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.molephotos);
+        //setContentView(R.layout.molephotos);
     }
 
     public void takePhoto(View view) {
@@ -30,7 +30,7 @@ public class MolePhotos extends Activity
     }
 
     public void back(View view) {
-       Intent intent = new Intent(this, SkinAreas.class);
-       startActivity(intent);
+       //Intent intent = new Intent(this, SkinAreas.class);
+       //startActivity(intent);
     }
 }

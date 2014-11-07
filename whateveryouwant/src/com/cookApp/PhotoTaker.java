@@ -1,4 +1,4 @@
-package com.example.moletracker;
+package com.cookApp;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -41,7 +41,7 @@ public class PhotoTaker extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.molephotos);
+        //setContentView(R.layout.molephotos);
     }
 
     public void takePhoto(View v) {

@@ -1,4 +1,4 @@
-package com.example.moletracker;
+package com.cookApp;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -55,7 +55,7 @@ public class Photos extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
-        super.onCreate(savedInstanceState);
+        /*super.onCreate(savedInstanceState);
         setContentView(R.layout.molephotos);
         
         Intent intent = getIntent();
@@ -68,7 +68,7 @@ public class Photos extends Activity {
         
         GridView gridView = (GridView)findViewById(R.id.moleview);
         gridView.setAdapter(new GridViewAdapter(this));;
-        
+        */
         
         
         
@@ -127,8 +127,8 @@ public class Photos extends Activity {
                 //Bitmap faceView = (new_decode(new File(filePath)));
                 //imageView.setImageBitmap(faceView);
             	
-            	GridView gridView = (GridView)findViewById(R.id.moleview);
-            	gridView.setAdapter(new GridViewAdapter(this));;
+            	/*GridView gridView = (GridView)findViewById(R.id.moleview);
+            	gridView.setAdapter(new GridViewAdapter(this));;*/
 
             } else {
                 bitmap = null;
@@ -226,9 +226,9 @@ public class Photos extends Activity {
     }*/
 
     public void back(View view) {
-        Intent intent = new Intent(this, Area.class);
+        /*Intent intent = new Intent(this, Area.class);
         intent.putExtra(EXTRA_BACK_LABEL, part);
-        startActivity(intent);
+        startActivity(intent);*/
     }
 
     
