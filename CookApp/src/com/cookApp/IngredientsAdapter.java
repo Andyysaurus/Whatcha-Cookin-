@@ -72,23 +72,23 @@ public class IngredientsAdapter {
 		String where = "LOCATION=?";
 		int numberOfEntriesDeleted = db.delete("MOLES", where, new String[]{mlocation});
 		return numberOfEntriesDeleted;
-	}
+	}*/
 	
-	public String getSingleEntry(String mlocation) {
-		Cursor cursor = db.query("MOLES", null, "LOCATION=?", new String[]{mlocation}, null, null, null);
+	public String[] getIngredients(String name) {
+		String[] ingredients = new String[2]; 
+		Cursor cursor = db.query("INGREDIENTS", null, "NAME=?", new String[]{name}, null, null, null);
 		if ( cursor.getCount()<1 ) {
 			cursor.close();
-			return "NOT EXIST";
+			return null;
 		}
-		
 		cursor.moveToFirst();
-		String area = cursor.getString(cursor.getColumnIndex("AREA"));
+		ingredients[0] = cursor.getString(cursor.getColumnIndex("QUANTITY"));
+		ingredients[1] = cursor.getString(cursor.getColumnIndex("MEASUREMENT"));
 		cursor.close();
-		return area;
+		return ingredients;
 	}
 	
-	
-	public Boolean checkLocations(String location) {
+	/*public Boolean checkLocations(String location) {
 		Cursor c = db.rawQuery("SELECT LOCATION FROM MOLES WHERE LOCATION = \"" + location + "\"", null);
 		int count = c.getCount();
 		if (count>0) {
