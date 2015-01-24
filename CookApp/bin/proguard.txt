@@ -1,0 +1,66 @@
+# view AndroidManifest.xml #generated:31
+-keep class com.cookApp.About { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.cookApp.AddIngredientDatabase { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.cookApp.AddIngredientHelper { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.cookApp.AddIngredients { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class com.cookApp.AddNewIngredients { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.cookApp.AddNewIngredients2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.cookApp.AddNewRecipe { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.cookApp.Check { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class com.cookApp.MainActivity { <init>(...); }
+
+# view res/layout/gridview_item.xml #generated:5
+-keep class com.example.moletracker.ImageViewAdapter { <init>(...); }
+
+# onClick res/layout/main.xml #generated:46
+-keepclassmembers class * { *** about(...); }
+
+# onClick res/layout/main.xml #generated:22
+-keepclassmembers class * { *** addI(...); }
+
+# onClick res/layout/main.xml #generated:30
+-keepclassmembers class * { *** addNI(...); }
+
+# onClick res/layout/main.xml #generated:38
+-keepclassmembers class * { *** addNR(...); }
+
+# onClick res/layout/addnewingredients2.xml #generated:37
+-keepclassmembers class * { *** another(...); }
+
+# onClick res/layout/about.xml #generated:12
+# onClick res/layout/addingredients.xml #generated:12
+# onClick res/layout/addnewingredients.xml #generated:30
+# onClick res/layout/addnewingredients2.xml #generated:30
+# onClick res/layout/addnewrecipes.xml #generated:24
+# onClick res/layout/check.xml #generated:12
+-keepclassmembers class * { *** back(...); }
+
+# onClick res/layout/main.xml #generated:14
+-keepclassmembers class * { *** check(...); }
+
+# onClick res/layout/addnewingredients.xml #generated:37
+# onClick res/layout/addnewingredients2.xml #generated:44
+-keepclassmembers class * { *** done(...); }
+
+# onClick res/layout/addnewrecipes.xml #generated:31
+-keepclassmembers class * { *** next(...); }
+
+# onClick res/layout/activity_main.xml #generated:11
+-keepclassmembers class * { *** onClick(...); }
+
