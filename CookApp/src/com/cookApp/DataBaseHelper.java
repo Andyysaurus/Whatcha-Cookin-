@@ -14,15 +14,15 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 	
 	@Override
 	public void onCreate(SQLiteDatabase _db) {
-		//_db.execSQL(AddMoleAdapter.DATABASE_CREATE);
+		_db.execSQL(RecipiesAdapter.DATABASE_CREATE);
 		_db.execSQL(IngredientsAdapter.DATABASE_CREATE);
 	}
 	
 	@Override
 	public void onUpgrade(SQLiteDatabase _db, int _oldversion, int _newversion) {
 		Log.w("TaskDBAdapter", "Upgrading from version " + _oldversion + " to " + _newversion + ", which will destroy all old data");
-		_db.execSQL("DROP TABLE IF EXISTS " + "MOLES");
-		_db.execSQL("DROP TABLE IF EXISTS " + "PHOTOMOLES");
+		_db.execSQL("DROP TABLE IF EXISTS " + "RECIPIES");
+		_db.execSQL("DROP TABLE IF EXISTS " + "INGREDIENTS");
 		onCreate(_db);
 	}
 
