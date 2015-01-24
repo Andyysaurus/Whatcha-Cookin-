@@ -15,7 +15,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 	@Override
 	public void onCreate(SQLiteDatabase _db) {
 		//_db.execSQL(AddMoleAdapter.DATABASE_CREATE);
-		_db.execSQL(PhotoAdapter.DATABASE_CREATE);
+		_db.execSQL(IngredientsAdapter.DATABASE_CREATE);
 	}
 	
 	@Override
