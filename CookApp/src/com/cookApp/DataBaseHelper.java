@@ -21,7 +21,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 	@Override
 	public void onUpgrade(SQLiteDatabase _db, int _oldversion, int _newversion) {
 		Log.w("TaskDBAdapter", "Upgrading from version " + _oldversion + " to " + _newversion + ", which will destroy all old data");
-		_db.execSQL("DROP TABLE IF EXISTS " + "RECIPIES");
+		_db.execSQL("DROP TABLE IF EXISTS " + "RECIPES");
 		_db.execSQL("DROP TABLE IF EXISTS " + "INGREDIENTS");
 		onCreate(_db);
 	}

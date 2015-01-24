@@ -6,12 +6,12 @@ import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 
-public class RecipiesAdapter {
+public class RecipesAdapter {
 	static final String DATABASE_NAME = "ingredients.db";
 	static final int DATABASE_VERSION = 1;
 	public static final int NAME_COLUMN = 1;
 	
-	static final String DATABASE_CREATE = "CREATE TABLE " + "RECIPIES" +
+	static final String DATABASE_CREATE = "CREATE TABLE " + "RECIPES" +
 			"( " + "NAME text primary key, DETAILS text" + ")";
 	
 	
@@ -20,12 +20,12 @@ public class RecipiesAdapter {
 	private DataBaseHelper dbHelper;
 	
 	
-	public RecipiesAdapter(Context _context) {
+	public RecipesAdapter(Context _context) {
 		context = _context;
 		dbHelper = new DataBaseHelper(context, DATABASE_NAME, null, DATABASE_VERSION);
 	}
 	
-	public RecipiesAdapter open() throws SQLException {
+	public RecipesAdapter open() throws SQLException {
 		db = dbHelper.getWritableDatabase();
 		return this;
 	}
@@ -38,11 +38,11 @@ public class RecipiesAdapter {
 		return db;
 	}
 	
-	public void insertRecipieEntry(String name, String details) {
+	public void insertRecipeEntry(String name, String details) {
 		ContentValues newValues = new ContentValues();
 		newValues.put("NAME", name);
 		newValues.put("DETAILS", details);
-		db.insert("RECIPIES", null, newValues);
+		db.insert("RECIPES", null, newValues);
 	}
 	
 	/*public int countPhotos(String area, String location) {
