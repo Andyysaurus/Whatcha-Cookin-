@@ -14,7 +14,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 	
 	@Override
 	public void onCreate(SQLiteDatabase _db) {
-		_db.execSQL(RecipiesAdapter.DATABASE_CREATE);
+		_db.execSQL(RecipesAdapter.DATABASE_CREATE);
 		_db.execSQL(IngredientsAdapter.DATABASE_CREATE);
 	}
 	
